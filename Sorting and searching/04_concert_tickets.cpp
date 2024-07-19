@@ -20,7 +20,7 @@ int main() {
             cout << -1 << "\n";
         }
         else {
-            it--;
+            --it;
             cout << it->first << "\n";
             it->second -= 1;
             if (it->second == 0)
